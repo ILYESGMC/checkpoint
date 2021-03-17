@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+  background-color: rgb(185, 63, 149);
+  height: 1000px;
+}
+ 
+.movie-title{
+  text-align: center;
+   width: 100%;
+   margin-bottom:  20px;
+   padding-top: 20px;
+   color: orange;
+}
+.searchbox{
+ display: inline-block;
+ width: 50%;
+  margin-left: 30px;
+}
+/* .filter{
+  display: inline-table;
+  width: auto;
+  margin-left: 40px;
+  margin-right: 40px;
+
+} */
+
+.stars{
+  width:20%;
+  font-size: 30px;
+   display: inline-block;
+   text-align: center;
+   padding-left: 0;
+}
+ /*------------style  modal*/
+.lab{
+  display:inline-block;
+   width:100px
+}
+.inp-text{
+  display:"inline-block";
+}
+/*----------movie list */
+.movie-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px 50px;
+  align-items: stretch;
+
+}
